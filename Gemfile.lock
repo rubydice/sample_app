@@ -176,6 +176,7 @@ DEPENDENCIES
   bootstrap-sass (= 2.2.1)
   capybara (= 2.0.1)
   coffee-rails (= 3.2.2)
+  execjs
   guard-rspec (= 2.3.1)
   guard-spork (= 1.4.0)
   jquery-rails (= 2.1.4)

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-require "execjs"
+gem 'execjs'
 gem 'rails', '3.2.11'
 gem 'bootstrap-sass', '2.2.2'
 gem 'bcrypt-ruby', '3.0.1'

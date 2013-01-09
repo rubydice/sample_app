@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'execjs'
-gem 'rails', '3.2.9'
+require "execjs"
+gem 'rails', '3.2.10'
 gem 'bootstrap-sass', '2.2.1'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
+  gem 'annotate', '2.5.0'
   gem 'sqlite3', '>= 1.3.5'
   gem 'rspec-rails', '2.12.0'
   gem 'guard-rspec', '2.3.1'

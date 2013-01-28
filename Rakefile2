@@ -3,11 +3,6 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 require 'thread'
 
-require File.expand_path('../config/application', __FILE__)
+require File.expand_path('../application', __FILE__)
 
 SampleApp::Application.load_tasks
-
-# ActiveSupport::Deprecation.silence do
-#  Selfcare::Application.initialize!
-
-# end
